@@ -12,7 +12,7 @@ function NvComponent() {
     <div>
     <Navbar expand="lg" className="Nv">
       <Container fluid >
-        <Navbar.Brand as ={Link} to = '/limpia-tu-espacio/'><img className = 'img-logo'src='https://res.cloudinary.com/da2aauwq2/image/upload/v1710390522/Limpia-tu-espacio/Logo.png'/></Navbar.Brand>
+        <Navbar.Brand as ={Link} to = '/limpia-tu-espacio2/'><img className = 'img-logo'src='https://res.cloudinary.com/da2aauwq2/image/upload/v1710390522/Limpia-tu-espacio/Logo.png'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -20,11 +20,11 @@ function NvComponent() {
             style={{ maxHeight: '100px',  }}
             
           >
-            <Nav.Link as ={Link} to = '/limpia-tu-espacio/'>Inicio</Nav.Link>
-            <Nav.Link as ={Link} to = '/limpia-tu-espacio/Nosotros'>Nosotros</Nav.Link>
-            <Nav.Link as ={Link} to = '/limpia-tu-espacio/Contactanos'>Contáctanos</Nav.Link>
+            <Nav.Link as ={Link} to = '/limpia-tu-espacio2/'>Inicio</Nav.Link>
+            <Nav.Link as ={Link} to = '/limpia-tu-espacio2/Nosotros'>Nosotros</Nav.Link>
+            <Nav.Link as ={Link} to = '/limpia-tu-espacio2/Contactanos'>Contáctanos</Nav.Link>
           </Nav>
-          <Link to = {'/limpia-tu-espacio/Contactanos'}>
+          <Link to = {'/limpia-tu-espacio2/Contactanos'}>
             <Button variant="outline-success">Mi Espacio</Button>
 
           </Link>

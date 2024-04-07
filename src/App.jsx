@@ -16,10 +16,10 @@ function App() {
     <>
       <NvComponent />
       <Routes>
-        <Route path="/limpia-tu-espacio/" element={<Home />} />
-        <Route path="/limpia-tu-espacio/Nosotros" element = {<Nosotros/>} />
-        <Route path="/Contactanos" element = {<Contactanos/>} />
-        <Route path="/limpia-tu-espacio/*" element = {<Navigate to ='/limpia-tu-espacio/' />} />
+        <Route path="/limpia-tu-espacio2/" element={<Home />} />
+        <Route path="/limpia-tu-espacio2/Nosotros" element = {<Nosotros/>} />
+        <Route path="/limpia-tu-espacio2/Contactanos" element = {<Contactanos/>} />
+        <Route path="/limpia-tu-espacio2/*" element = {<Navigate to ='/limpia-tu-espacio2/' />} />
       </Routes>
       <Footer/>
     </>
