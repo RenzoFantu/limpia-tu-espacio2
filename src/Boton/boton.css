@@ -1,0 +1,15 @@
+
+.Boton{
+    margin-left: 25px;
+    margin-right: 25px;
+    /* background-color: #1F39A2 !important; */
+    border: none !important;
+    box-shadow: inset 0px 0px 5px ;
+    margin-bottom: 40px;
+    
+}
+
+.container{
+    display: flex !important;
+    
+}

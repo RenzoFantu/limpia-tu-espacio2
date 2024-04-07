@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: white;
+    box-sizing: border-box;
+    
+}
+.Portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+    ,url("https://res.cloudinary.com/da2aauwq2/image/upload/v1712073344/Limpia-tu-espacio/maquina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
+    padding: 30px;
+    
+}
+.Portada button{
+    padding: 10px 20px 10px 20px;
+    color:black;
+    background-color:#FFFF2D!important;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0.8);
+    border: 0.5px solid black;
+    font-weight: bold;
+}
+.Portada button:hover{
+     
+    background-color:#FFFF2D!important;
+    color:black !important;
+    box-shadow: 2px 2px 10px #FFFF2D;
+    
+}
+
+
+.video-portada{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.imagen-portada{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.Boton{
+    margin-bottom: 40px !important;
+    padding: 10px 20px 10px 20px !important;
+    
+}
+.container{
+    flex-wrap: nowrap !important;
+    
+}
+.navbar-toggler{
+    border: none !important;
+}
+.but{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+   
+    
+
+}
+.but .Boton{
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.0);
+    border: 0;
+    
+    font-weight: bold;
+    color: black;
+    
+}
+
+.Portada h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    color:#FFFF2D;
+    font-weight: bold;
+    
+    
+}
+.Portada h2{
+    color: white;
+    margin-bottom: 30px;
+}
+.Portada p{
+    text-align: center;
+    background-color: white;
+    text-align: justify;
+    
+}
+.bienvenida h1, p{
+    margin: 30px;
+    text-align: justify;
+    
+    
+}
+.bienvenida h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.bienvenida p{
+    font-size: 1.2rem;
+}
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    object-fit: cover;
+} */
+.contacto{
+    background-color: white;
+}
+
