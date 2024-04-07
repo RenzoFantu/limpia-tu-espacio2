@@ -19,7 +19,7 @@ const Home = () => {
         <div className="imgPortada"></div>
         <h1>Limpia tu Espacio...YA!!!</h1>
         <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
-        <Link to = {'/Contactanos'}>
+        <Link to = {'/limpia-tu-espacio/Contactanos'}>
         <button>Contáctanos</button>
 
         </Link>
